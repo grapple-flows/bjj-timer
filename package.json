@@ -1,0 +1,72 @@
+{
+  "name": "bjj-timer",
+  "version": "0.1.0",
+  "description": "A free BJJ round timer web component with IBJJF match times, rest periods, a 10-second warning, audio cues, fullscreen, and screen wake lock. One script tag, no framework, no dependencies.",
+  "keywords": [
+    "bjj",
+    "brazilian-jiu-jitsu",
+    "jiu-jitsu",
+    "timer",
+    "round-timer",
+    "ibjjf",
+    "grappling",
+    "web-component",
+    "custom-element"
+  ],
+  "homepage": "https://grappleflows.com/timer",
+  "bugs": {
+    "url": "https://github.com/GrappleFlows/bjj-timer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrappleFlows/bjj-timer.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Grapple Flows",
+    "url": "https://grappleflows.com"
+  },
+  "type": "module",
+  "main": "./dist/bjj-timer.js",
+  "module": "./dist/bjj-timer.js",
+  "types": "./dist/bjj-timer.d.ts",
+  "unpkg": "./dist/bjj-timer.min.js",
+  "jsdelivr": "./dist/bjj-timer.min.js",
+  "exports": {
+    ".": {
+      "types": "./dist/bjj-timer.d.ts",
+      "import": "./dist/bjj-timer.js"
+    },
+    "./logic": {
+      "types": "./dist/logic.d.ts",
+      "import": "./dist/logic.js"
+    },
+    "./min": "./dist/bjj-timer.min.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "sideEffects": [
+    "./dist/bjj-timer.js",
+    "./dist/bjj-timer.min.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "esbuild": "^0.28.2",
+    "happy-dom": "^20.14.5",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.2"
+  }
+}
