@@ -4,6 +4,8 @@ A free BJJ round timer web component with IBJJF match times, rest periods, a 10-
 
 Made by [Grapple Flows](https://grappleflows.com). Use it hosted at [grappleflows.com/timer](https://grappleflows.com/timer), or put it on your own site.
 
+![bjj-timer web component running a 5:00 round with round and rest presets, IBJJF match times, and fullscreen controls](https://raw.githubusercontent.com/GrappleFlows/bjj-timer/main/docs/screenshot.png)
+
 ## Quick start
 
 Add two lines to any HTML page:
