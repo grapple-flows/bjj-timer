@@ -4,7 +4,7 @@ A free BJJ round timer web component with IBJJF match times, rest periods, a 10-
 
 Made by [Grapple Flows](https://grappleflows.com). Use it hosted at [grappleflows.com/timer](https://grappleflows.com/timer), or put it on your own site.
 
-![bjj-timer web component running a 5:00 round with round and rest presets, IBJJF match times, and fullscreen controls](https://raw.githubusercontent.com/GrappleFlows/bjj-timer/main/docs/screenshot.png)
+![bjj-timer web component running a 5:00 round with round and rest presets, IBJJF match times, and fullscreen controls](https://raw.githubusercontent.com/grapple-flows/bjj-timer/main/docs/screenshot.png)
 
 ## Quick start
 
@@ -273,9 +273,9 @@ The timer logic in [`src/rollTimer.ts`](src/rollTimer.ts) is the same code that 
 
 ## Related
 
-- [bjj-scoreboard](https://github.com/GrappleFlows/bjj-scoreboard): an IBJJF scoreboard web component with points, advantages, penalties, tiebreaks, and a match clock.
-- [bjj-bracket](https://github.com/GrappleFlows/bjj-bracket): a tournament bracket generator for single elimination, double elimination, and round robin.
-- [bjj-data](https://github.com/GrappleFlows/bjj-data): IBJJF and ADCC weight classes, legal techniques by ruleset, IBJJF belt requirements, and a BJJ position vocabulary as JSON and a typed npm package.
+- [bjj-scoreboard](https://github.com/grapple-flows/bjj-scoreboard): an IBJJF scoreboard web component with points, advantages, penalties, tiebreaks, and a match clock.
+- [bjj-bracket](https://github.com/grapple-flows/bjj-bracket): a tournament bracket generator for single elimination, double elimination, and round robin.
+- [bjj-data](https://github.com/grapple-flows/bjj-data): IBJJF and ADCC weight classes, legal techniques by ruleset, IBJJF belt requirements, and a BJJ position vocabulary as JSON and a typed npm package.
 
 ## About Grapple Flows
 

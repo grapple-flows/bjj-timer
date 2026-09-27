@@ -15,11 +15,11 @@
   ],
   "homepage": "https://grappleflows.com/timer",
   "bugs": {
-    "url": "https://github.com/GrappleFlows/bjj-timer/issues"
+    "url": "https://github.com/grapple-flows/bjj-timer/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GrappleFlows/bjj-timer.git"
+    "url": "git+https://github.com/grapple-flows/bjj-timer.git"
   },
   "license": "MIT",
   "author": {
